@@ -1,0 +1,22 @@
+{
+  "name": "digital-pill-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "ioredis": "^4.16.3",
+    "random-string": "^0.2.0",
+    "redis": "^3.0.2",
+    "redlock": "^4.1.0",
+    "then-sleep": "^1.0.1",
+    "uuid": "^8.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+version: "2.1"
+services:
+  redis:
+    container_name: redis
+    image: "bitnami/redis:5.0"
+    ports:
+      - 6379:6379
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - ALLOW_EMPTY_PASSWORD=yes
+      - REDIS_DISABLE_COMMANDS=FLUSHDB,FLUSHALL
+    volumes:
+      - redis-data:/bitnami/redis/data
+    networks:
+      - services-tier
+
+volumes:
+  redis-data:
+
+networks:
+  services-tier:

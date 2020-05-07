@@ -1,0 +1,13 @@
+{
+  "resourceOwner": "mq:lock",
+  "lockTtl": 500,
+  "timeoutCorrection": 20,
+  "messageGeneratorIntervalMs": 500,
+  "channelName": "mq:channel",
+  "redisHost": "",
+  "redisPort": "",
+  "redisDb": "",
+  "redisPassword": "",
+  "cleanerModeArg": "--getErrors",
+  "corruptedMessagesList": "mq:corrupted"
+}
