@@ -1,13 +1,13 @@
 {
   "name": "digital-pill-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Описание алгоритма определения генератора сообщений",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "IvanBlacky",
+  "license": "MIT",
   "devDependencies": {
     "prettier": "^2.0.5"
   },
@@ -18,5 +18,13 @@
     "redlock": "^4.1.0",
     "then-sleep": "^1.0.1",
     "uuid": "^8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanBlacky/digital-pill-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IvanBlacky/digital-pill-test/issues"
+  },
+  "homepage": "https://github.com/IvanBlacky/digital-pill-test#readme"
 }
