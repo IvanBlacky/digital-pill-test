@@ -8,7 +8,7 @@ async function main() {
   // setting default mode: pub/sub
   let mode = App.MODES.PUBSUB;
 
-  // process args have flag for cleaning errors (--getErrors bu default) -> set mode to cleaner mode
+  // process args have flag for cleaning errors (--getErrors by default) -> set mode to cleaner mode
   if (argv.includes(config.cleanerModeArg)) mode = App.MODES.CLEANER;
 
   // instantiate and run app
